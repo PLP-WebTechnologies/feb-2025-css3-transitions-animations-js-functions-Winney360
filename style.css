@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Button Styling */
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #008CBA;
+    color: white;
+}
+
+/* Animated Box */
+#animatedBox {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 20px;
+}
+
+/* Slide Animation */
+@keyframes slideRight {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(150px); }
+}
+
+.slide {
+    animation: slideRight 1s ease-in-out;
+}
